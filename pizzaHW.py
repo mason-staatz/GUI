@@ -130,6 +130,6 @@ class PizzaGUI:
         tkinter.messagebox.showinfo("Order Confirmation", self.message)
 
 
-my_gui = PizzaGUI
+my_gui = PizzaGUI()
 
 print("moving on...")
