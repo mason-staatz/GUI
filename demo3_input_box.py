@@ -44,12 +44,7 @@ class KiloConverterGUI:
         miles = round((kilo * 0.6214), 2)
 
         tkinter.messagebox.showinfo(
-            "Response",
-            str(kilo)
-            + " Kilometers is equal to "
-            + str(miles)
-            + " miles. "
-            + "\nP.S. Caleb is dumb",
+            "Response", str(kilo) + " Kilometers is equal to " + str(miles) + " miles. "
         )
 
 

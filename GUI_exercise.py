@@ -9,7 +9,7 @@ class ExerciseGUI:
 
         # configure the main window
         self.main_window.geometry("600x300")
-        gui.configure(bg="green")
+        # ExerciseGUI.configure(bg="green")
 
         self.first_frame = tkinter.Frame(self.main_window)
         self.second_frame = tkinter.Frame(self.main_window)
